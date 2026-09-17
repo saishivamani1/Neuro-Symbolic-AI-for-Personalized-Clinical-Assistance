@@ -1,0 +1,6 @@
+metric,count
+True Positives (TP),1419
+False Positives (FP),0
+False Negatives (FN),0
+True Negatives (TN),23581
+Total Predictions,25000

@@ -1,0 +1,670 @@
+[
+  {
+    "case_id": "HUM_001",
+    "domain": "diabetes_kidney",
+    "case_type": "safety_critical",
+    "reference_rules": [
+      "R001",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R050"
+    ],
+    "reference_facts": [
+      "metformin_contraindicated",
+      "sglt2i_consideration",
+      "glp1_ra_preferred",
+      "annual_uacr_egfr_required",
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "nephrology_referral_consideration"
+    ],
+    "reference_alerts": [
+      "metformin_contraindicated"
+    ],
+    "original_expected_rules": [
+      "R001",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R050"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_002",
+    "domain": "kidney_electrolytes",
+    "case_type": "drug_safety",
+    "reference_rules": [
+      "R007",
+      "R008",
+      "R010"
+    ],
+    "reference_facts": [
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "moderately_elevated_albuminuria"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R007",
+      "R008",
+      "R010"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_003",
+    "domain": "kidney_cardiac",
+    "case_type": "drug_interaction",
+    "reference_rules": [
+      "R007",
+      "R008",
+      "R038"
+    ],
+    "reference_facts": [
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "guideline_beta_blocker"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R007",
+      "R008",
+      "R038"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_004",
+    "domain": "diabetes_kidney",
+    "case_type": "treatment_recommendation",
+    "reference_rules": [
+      "R004",
+      "R006",
+      "R007",
+      "R008",
+      "R009"
+    ],
+    "reference_facts": [
+      "sglt2i_consideration",
+      "annual_uacr_egfr_required",
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "severely_elevated_albuminuria"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R004",
+      "R006",
+      "R007",
+      "R008",
+      "R009"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_005",
+    "domain": "cardiac",
+    "case_type": "treatment_recommendation",
+    "reference_rules": [
+      "R038"
+    ],
+    "reference_facts": [
+      "guideline_beta_blocker"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R038"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_006",
+    "domain": "hypertension_diabetes",
+    "case_type": "diagnosis",
+    "reference_rules": [
+      "R006",
+      "R022",
+      "R023"
+    ],
+    "reference_facts": [
+      "annual_uacr_egfr_required",
+      "stage2_hypertension",
+      "stage2_hypertension"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R006",
+      "R022",
+      "R023"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_007",
+    "domain": "cardiac_electrolytes",
+    "case_type": "safety_monitoring",
+    "reference_rules": [
+      "R007",
+      "R008",
+      "R013",
+      "R017"
+    ],
+    "reference_facts": [
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "potassium_and_egfr_monitoring",
+      "hyperkalemia_with_mra"
+    ],
+    "reference_alerts": [
+      "hyperkalemia_with_mra"
+    ],
+    "original_expected_rules": [
+      "R007",
+      "R008",
+      "R013",
+      "R017"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_008",
+    "domain": "diabetes_lipids",
+    "case_type": "treatment_recommendation",
+    "reference_rules": [
+      "R006",
+      "R026",
+      "R027",
+      "R031"
+    ],
+    "reference_facts": [
+      "annual_uacr_egfr_required",
+      "moderate_intensity_statin_indicated",
+      "high_intensity_statin_indicated",
+      "persistently_elevated_ldl_risk_enhancer"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R006",
+      "R026",
+      "R027",
+      "R031"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_009",
+    "domain": "geriatrics",
+    "case_type": "coverage_gap",
+    "reference_rules": [
+      "R008"
+    ],
+    "reference_facts": [
+      "ckd_complication_screening_required"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R008"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_010",
+    "domain": "pulmonology",
+    "case_type": "coverage_gap",
+    "reference_rules": [],
+    "reference_facts": [],
+    "reference_alerts": [],
+    "original_expected_rules": [],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_011",
+    "domain": "cardiac",
+    "case_type": "diagnosis",
+    "reference_rules": [
+      "R024"
+    ],
+    "reference_facts": [
+      "elevated_blood_pressure"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R024"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_012",
+    "domain": "diabetes",
+    "case_type": "negative",
+    "reference_rules": [
+      "R006"
+    ],
+    "reference_facts": [
+      "annual_uacr_egfr_required"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R006"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_013",
+    "domain": "cardiology_lipids",
+    "case_type": "treatment_recommendation",
+    "reference_rules": [
+      "R028"
+    ],
+    "reference_facts": [
+      "intensive_ldl_lowering_indicated"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R028"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_014",
+    "domain": "diabetes_kidney",
+    "case_type": "safety_critical",
+    "reference_rules": [
+      "R001",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R050"
+    ],
+    "reference_facts": [
+      "metformin_contraindicated",
+      "glp1_ra_preferred",
+      "annual_uacr_egfr_required",
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "nephrology_referral_consideration"
+    ],
+    "reference_alerts": [
+      "metformin_contraindicated"
+    ],
+    "original_expected_rules": [
+      "R001",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R050"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_015",
+    "domain": "kidney",
+    "case_type": "multi_rule",
+    "reference_rules": [
+      "R004",
+      "R006",
+      "R007",
+      "R008",
+      "R010",
+      "R018",
+      "R019",
+      "R022"
+    ],
+    "reference_facts": [
+      "sglt2i_consideration",
+      "annual_uacr_egfr_required",
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "moderately_elevated_albuminuria",
+      "bp_above_ckd_goal",
+      "bp_above_ckd_goal",
+      "stage2_hypertension"
+    ],
+    "reference_alerts": [
+      "bp_above_ckd_goal",
+      "bp_above_ckd_goal"
+    ],
+    "original_expected_rules": [
+      "R004",
+      "R006",
+      "R007",
+      "R008",
+      "R010",
+      "R018",
+      "R019",
+      "R022"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_016",
+    "domain": "general",
+    "case_type": "negative",
+    "reference_rules": [
+      "R025"
+    ],
+    "reference_facts": [
+      "normal_blood_pressure"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R025"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_017",
+    "domain": "cardiac",
+    "case_type": "multi_rule",
+    "reference_rules": [
+      "R008",
+      "R020",
+      "R021",
+      "R040"
+    ],
+    "reference_facts": [
+      "ckd_complication_screening_required",
+      "stage1_hypertension",
+      "stage1_hypertension",
+      "sglt2i_for_hfpeF"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R008",
+      "R020",
+      "R021",
+      "R040"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_018",
+    "domain": "diabetes_kidney",
+    "case_type": "multi_rule",
+    "reference_rules": [
+      "R002",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R009",
+      "R050"
+    ],
+    "reference_facts": [
+      "metformin_not_initiated",
+      "sglt2i_consideration",
+      "glp1_ra_preferred",
+      "annual_uacr_egfr_required",
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "severely_elevated_albuminuria",
+      "nephrology_referral_consideration"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R002",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R009",
+      "R050"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_019",
+    "domain": "anticoagulation",
+    "case_type": "coverage_gap",
+    "reference_rules": [
+      "R008"
+    ],
+    "reference_facts": [
+      "ckd_complication_screening_required"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R008"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_020",
+    "domain": "hypertension",
+    "case_type": "diagnosis",
+    "reference_rules": [
+      "R020",
+      "R021"
+    ],
+    "reference_facts": [
+      "stage1_hypertension",
+      "stage1_hypertension"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R020",
+      "R021"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_021",
+    "domain": "hypertension_diabetes",
+    "case_type": "multi_rule",
+    "reference_rules": [
+      "R006",
+      "R010",
+      "R022",
+      "R023"
+    ],
+    "reference_facts": [
+      "annual_uacr_egfr_required",
+      "moderately_elevated_albuminuria",
+      "stage2_hypertension",
+      "stage2_hypertension"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R006",
+      "R010",
+      "R022",
+      "R023"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_022",
+    "domain": "kidney",
+    "case_type": "drug_safety",
+    "reference_rules": [
+      "R007",
+      "R008"
+    ],
+    "reference_facts": [
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R007",
+      "R008"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_023",
+    "domain": "diabetes_kidney",
+    "case_type": "treatment_recommendation",
+    "reference_rules": [
+      "R004",
+      "R006",
+      "R007",
+      "R008",
+      "R010"
+    ],
+    "reference_facts": [
+      "sglt2i_consideration",
+      "annual_uacr_egfr_required",
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "moderately_elevated_albuminuria"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R004",
+      "R006",
+      "R007",
+      "R008",
+      "R010"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_024",
+    "domain": "cardiac_kidney",
+    "case_type": "multi_rule",
+    "reference_rules": [
+      "R007",
+      "R008",
+      "R038"
+    ],
+    "reference_facts": [
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "guideline_beta_blocker"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R007",
+      "R008",
+      "R038"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_025",
+    "domain": "general",
+    "case_type": "negative",
+    "reference_rules": [
+      "R025"
+    ],
+    "reference_facts": [
+      "normal_blood_pressure"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R025"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_026",
+    "domain": "pulmonology",
+    "case_type": "coverage_gap",
+    "reference_rules": [],
+    "reference_facts": [],
+    "reference_alerts": [],
+    "original_expected_rules": [],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_027",
+    "domain": "cardiology_lipids",
+    "case_type": "treatment_recommendation",
+    "reference_rules": [
+      "R028"
+    ],
+    "reference_facts": [
+      "intensive_ldl_lowering_indicated"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R028"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_028",
+    "domain": "cardiac_electrolytes",
+    "case_type": "coverage_gap",
+    "reference_rules": [
+      "R008"
+    ],
+    "reference_facts": [
+      "ckd_complication_screening_required"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R008"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_029",
+    "domain": "diabetes",
+    "case_type": "negative",
+    "reference_rules": [
+      "R025"
+    ],
+    "reference_facts": [
+      "normal_blood_pressure"
+    ],
+    "reference_alerts": [],
+    "original_expected_rules": [
+      "R025"
+    ],
+    "label_changed": false
+  },
+  {
+    "case_id": "HUM_030",
+    "domain": "multi_domain",
+    "case_type": "multi_rule",
+    "reference_rules": [
+      "R001",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R009",
+      "R038",
+      "R050"
+    ],
+    "reference_facts": [
+      "metformin_contraindicated",
+      "sglt2i_consideration",
+      "glp1_ra_preferred",
+      "annual_uacr_egfr_required",
+      "uacr_egfr_1_to_4_times_yearly",
+      "ckd_complication_screening_required",
+      "severely_elevated_albuminuria",
+      "guideline_beta_blocker",
+      "nephrology_referral_consideration"
+    ],
+    "reference_alerts": [
+      "metformin_contraindicated"
+    ],
+    "original_expected_rules": [
+      "R001",
+      "R004",
+      "R005",
+      "R006",
+      "R007",
+      "R008",
+      "R009",
+      "R038",
+      "R050"
+    ],
+    "label_changed": false
+  }
+]

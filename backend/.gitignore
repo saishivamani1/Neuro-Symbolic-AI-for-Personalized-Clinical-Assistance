@@ -1,0 +1,43 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.so
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+ENV/
+.env.local
+
+# ===== Secrets — NEVER commit these =====
+.env
+*.key
+*.pem
+secrets/
+
+# ===== ChromaDB vector store (large binary files) =====
+data/chroma/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ===== Testing =====
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ===== Docker =====
+*.log

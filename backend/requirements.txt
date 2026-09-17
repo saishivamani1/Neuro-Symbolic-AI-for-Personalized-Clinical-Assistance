@@ -1,0 +1,53 @@
+# ==============================================================================
+# Neuro-Symbolic Healthcare Intelligence Platform
+# requirements.txt — Stage 1 & Stage 2
+#
+# Install with:
+#   pip install -r requirements.txt
+# ==============================================================================
+
+# ---- Web framework -----------------------------------------------------------
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.17        # Required for FastAPI file uploads
+
+# ---- Configuration -----------------------------------------------------------
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# ---- Logging -----------------------------------------------------------------
+python-json-logger>=3.2.0
+
+# ---- Testing -----------------------------------------------------------------
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+httpx>=0.28.0                   # Used by fastapi TestClient
+
+# ==============================================================================
+# Stage 2 additions (RAG / Document Processing) — active for Stage 2:
+# ------------------------------------------------------------------------------
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+pymupdf>=1.24.0
+# ------------------------------------------------------------------------------
+
+# ==============================================================================
+# Stage 3 additions (Neo4j Knowledge Graph) — active for Stage 3:
+# ------------------------------------------------------------------------------
+neo4j>=5.26.0
+langchain-neo4j>=0.3.0
+# ------------------------------------------------------------------------------
+
+# Stage 5 additions (LLM integration) — active for Stage 5:
+# ------------------------------------------------------------------------------
+langchain-openai>=0.3.0
+openai>=1.57.0
+tiktoken>=0.8.0
+langchain-groq>=0.2.0
+groq>=0.11.0
+huggingface_hub>=0.24.0      # HuggingFace Inference API client
+# ------------------------------------------------------------------------------

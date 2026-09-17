@@ -1,0 +1,1603 @@
+{
+  "evaluation_type": "humanized_vignettes",
+  "total_cases": 30,
+  "rag_available": true,
+  "rag_cases_evaluated": 30,
+  "symbolic_rule_engine": {
+    "micro_precision": 1.0,
+    "micro_recall": 1.0,
+    "micro_f1": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "derived_fact_macro_f1": 1.0,
+    "subset_exact_match": 1.0,
+    "exact_match_count": 30,
+    "alert_recall": 1.0,
+    "rule_tp": 91,
+    "rule_fp": 0,
+    "rule_fn": 0
+  },
+  "rag_retrieval": {
+    "hit_at_1": 0.9,
+    "hit_at_3": 0.9667,
+    "hit_at_5": 0.9667,
+    "mean_reciprocal_rank": 0.9333,
+    "mean_similarity_score": 0.7522,
+    "mean_keyword_coverage": 0.6383
+  },
+  "by_domain": {
+    "diabetes_kidney": {
+      "cases": 5,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "kidney_electrolytes": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "kidney_cardiac": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "cardiac": {
+      "cases": 3,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "hypertension_diabetes": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "cardiac_electrolytes": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "diabetes_lipids": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "geriatrics": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "pulmonology": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "diabetes": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "cardiology_lipids": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "kidney": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "general": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "anticoagulation": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "hypertension": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "cardiac_kidney": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "multi_domain": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    }
+  },
+  "by_case_type": {
+    "safety_critical": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "drug_safety": {
+      "cases": 2,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "drug_interaction": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "treatment_recommendation": {
+      "cases": 6,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "diagnosis": {
+      "cases": 3,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "safety_monitoring": {
+      "cases": 1,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "coverage_gap": {
+      "cases": 5,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "negative": {
+      "cases": 4,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    },
+    "multi_rule": {
+      "cases": 6,
+      "exact_match_rate": 1.0,
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0
+    }
+  },
+  "per_case": [
+    {
+      "case_id": "HUM_001",
+      "domain": "diabetes_kidney",
+      "case_type": "safety_critical",
+      "narrative_excerpt": "Pt Ahmed Khan, 68M. Hx: T2DM + CKD (stage 4, eGFR ~24). On metformin 1g BD. Late...",
+      "expected_rules": [
+        "R001",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R050"
+      ],
+      "predicted_rules": [
+        "R001",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R050"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 7,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "metformin_contraindicated",
+        "nephrology_referral_consideration",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "metformin_contraindicated",
+        "nephrology_referral_consideration",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [
+        "metformin_contraindicated"
+      ],
+      "predicted_alerts": [
+        "metformin_contraindicated"
+      ],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.8243,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_002",
+      "domain": "kidney_electrolytes",
+      "case_type": "drug_safety",
+      "narrative_excerpt": "62yo woman Priya Sharma. CKD (eGFR 38), hypertension. On lisinopril 10mg. K+ cam...",
+      "expected_rules": [
+        "R007",
+        "R008",
+        "R010"
+      ],
+      "predicted_rules": [
+        "R007",
+        "R008",
+        "R010"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 3,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required",
+        "moderately_elevated_albuminuria",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required",
+        "moderately_elevated_albuminuria",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7857,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_003",
+      "domain": "kidney_cardiac",
+      "case_type": "drug_interaction",
+      "narrative_excerpt": "James O'Brien 72M. CHF (EF 35%), CKD, hypertension. Current meds: lisinopril, fu...",
+      "expected_rules": [
+        "R007",
+        "R008",
+        "R038"
+      ],
+      "predicted_rules": [
+        "R007",
+        "R008",
+        "R038"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 3,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required",
+        "guideline_beta_blocker",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required",
+        "guideline_beta_blocker",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7266,
+      "rag_keyword_coverage": 0.6,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_004",
+      "domain": "diabetes_kidney",
+      "case_type": "treatment_recommendation",
+      "narrative_excerpt": "Mrs Chen, 61F. DM2 x12yr. CKD progressing \u2013 eGFR 58. Latest UACR 380 mg/g (macro...",
+      "expected_rules": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "predicted_rules": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 5,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "severely_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "severely_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.783,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_005",
+      "domain": "cardiac",
+      "case_type": "treatment_recommendation",
+      "narrative_excerpt": "Ravi Gupta, 59M. ECHO shows LVEF 32%. Ischaemic cardiomyopathy. On aspirin + ato...",
+      "expected_rules": [
+        "R038"
+      ],
+      "predicted_rules": [
+        "R038"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "guideline_beta_blocker"
+      ],
+      "predicted_facts": [
+        "guideline_beta_blocker"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 0,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 0.5,
+      "rag_avg_score": 0.7523,
+      "rag_keyword_coverage": 0.25,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_006",
+      "domain": "hypertension_diabetes",
+      "case_type": "diagnosis",
+      "narrative_excerpt": "Fatima Al-Hassan 64F. T2DM. BP readings averaged 148/92 over 3 clinic visits. No...",
+      "expected_rules": [
+        "R006",
+        "R022",
+        "R023"
+      ],
+      "predicted_rules": [
+        "R006",
+        "R022",
+        "R023"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 3,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "stage2_hypertension"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "stage2_hypertension"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.738,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_007",
+      "domain": "cardiac_electrolytes",
+      "case_type": "safety_monitoring",
+      "narrative_excerpt": "Bjorn Larsson, 77M. HF + CKD. On spironolactone 25mg. K+ 5.7 mEq/L, eGFR 41. HF ...",
+      "expected_rules": [
+        "R007",
+        "R008",
+        "R013",
+        "R017"
+      ],
+      "predicted_rules": [
+        "R007",
+        "R008",
+        "R013",
+        "R017"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 4,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required",
+        "hyperkalemia_with_mra",
+        "potassium_and_egfr_monitoring",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required",
+        "hyperkalemia_with_mra",
+        "potassium_and_egfr_monitoring",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [
+        "hyperkalemia_with_mra"
+      ],
+      "predicted_alerts": [
+        "hyperkalemia_with_mra"
+      ],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.8047,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_008",
+      "domain": "diabetes_lipids",
+      "case_type": "treatment_recommendation",
+      "narrative_excerpt": "Ananya Patel 43F. New T2DM diagnosis. LDL 198 mg/dL. No prior ASCVD. Not on any ...",
+      "expected_rules": [
+        "R006",
+        "R026",
+        "R027",
+        "R031"
+      ],
+      "predicted_rules": [
+        "R006",
+        "R026",
+        "R027",
+        "R031"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 4,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "high_intensity_statin_indicated",
+        "moderate_intensity_statin_indicated",
+        "persistently_elevated_ldl_risk_enhancer"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "high_intensity_statin_indicated",
+        "moderate_intensity_statin_indicated",
+        "persistently_elevated_ldl_risk_enhancer"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7728,
+      "rag_keyword_coverage": 0.8333,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_009",
+      "domain": "geriatrics",
+      "case_type": "coverage_gap",
+      "narrative_excerpt": "George Whitfield 81M. Nursing home. Mild dementia, anxiety \u2013 psychiatrist starte...",
+      "expected_rules": [
+        "R008"
+      ],
+      "predicted_rules": [
+        "R008"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.6432,
+      "rag_keyword_coverage": 0.6,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_010",
+      "domain": "pulmonology",
+      "case_type": "coverage_gap",
+      "narrative_excerpt": "Yuki Tanaka 67F. Smoker 40 pack-years. Spirometry: FEV1/FVC 0.58 post-BD. Breath...",
+      "expected_rules": [],
+      "predicted_rules": [],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 0,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [],
+      "predicted_facts": [],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.6521,
+      "rag_keyword_coverage": 0.4,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_011",
+      "domain": "cardiac",
+      "case_type": "diagnosis",
+      "narrative_excerpt": "Tariq Hussain, 52M. Post-MI 8 months ago. On aspirin only. No beta blocker. HR 8...",
+      "expected_rules": [
+        "R024"
+      ],
+      "predicted_rules": [
+        "R024"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "elevated_blood_pressure"
+      ],
+      "predicted_facts": [
+        "elevated_blood_pressure"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7343,
+      "rag_keyword_coverage": 0.4,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_012",
+      "domain": "diabetes",
+      "case_type": "negative",
+      "narrative_excerpt": "Sandra Okonkwo, 38F. PCOS + new T2DM. HbA1c 9.4%. eGFR 95, no CKD. Starting metf...",
+      "expected_rules": [
+        "R006"
+      ],
+      "predicted_rules": [
+        "R006"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7351,
+      "rag_keyword_coverage": 1.0,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_013",
+      "domain": "cardiology_lipids",
+      "case_type": "treatment_recommendation",
+      "narrative_excerpt": "David Kowalski 74M. Prior stroke 2yr ago \u2013 established ASCVD. LDL 142 mg/dL. On ...",
+      "expected_rules": [
+        "R028"
+      ],
+      "predicted_rules": [
+        "R028"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "intensive_ldl_lowering_indicated"
+      ],
+      "predicted_facts": [
+        "intensive_ldl_lowering_indicated"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.798,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_014",
+      "domain": "diabetes_kidney",
+      "case_type": "safety_critical",
+      "narrative_excerpt": "Leila Nouri 58F. CKD stage 5 (eGFR 12). Still on metformin from years ago. Emerg...",
+      "expected_rules": [
+        "R001",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R050"
+      ],
+      "predicted_rules": [
+        "R001",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R050"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 6,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "metformin_contraindicated",
+        "nephrology_referral_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "metformin_contraindicated",
+        "nephrology_referral_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [
+        "metformin_contraindicated"
+      ],
+      "predicted_alerts": [
+        "metformin_contraindicated"
+      ],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.8228,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_015",
+      "domain": "kidney",
+      "case_type": "multi_rule",
+      "narrative_excerpt": "Carlos Rivera 65M. DM2, HTN, CKD (eGFR 55, UACR 250 mg/g). BP today 142/88. On a...",
+      "expected_rules": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R010",
+        "R018",
+        "R019",
+        "R022"
+      ],
+      "predicted_rules": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R010",
+        "R018",
+        "R019",
+        "R022"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 8,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "bp_above_ckd_goal",
+        "ckd_complication_screening_required",
+        "moderately_elevated_albuminuria",
+        "sglt2i_consideration",
+        "stage2_hypertension",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "bp_above_ckd_goal",
+        "ckd_complication_screening_required",
+        "moderately_elevated_albuminuria",
+        "sglt2i_consideration",
+        "stage2_hypertension",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [
+        "bp_above_ckd_goal"
+      ],
+      "predicted_alerts": [
+        "bp_above_ckd_goal"
+      ],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.801,
+      "rag_keyword_coverage": 0.5,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_016",
+      "domain": "general",
+      "case_type": "negative",
+      "narrative_excerpt": "Mei Ling 49F. Annual checkup. BP 118/74, eGFR 94. No meds, no diagnoses. FBG nor...",
+      "expected_rules": [
+        "R025"
+      ],
+      "predicted_rules": [
+        "R025"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "normal_blood_pressure"
+      ],
+      "predicted_facts": [
+        "normal_blood_pressure"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 0,
+      "rag_hit_at_3": 0,
+      "rag_hit_at_5": 0,
+      "rag_mrr": 0.0,
+      "rag_avg_score": 0.6845,
+      "rag_keyword_coverage": 0.0,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_017",
+      "domain": "cardiac",
+      "case_type": "multi_rule",
+      "narrative_excerpt": "Raj Singh 70M. HFpEF (EF 58%), HTN, AF. On amlodipine and warfarin. eGFR 58, BP ...",
+      "expected_rules": [
+        "R008",
+        "R020",
+        "R021",
+        "R040"
+      ],
+      "predicted_rules": [
+        "R008",
+        "R020",
+        "R021",
+        "R040"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 4,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required",
+        "sglt2i_for_hfpeF",
+        "stage1_hypertension"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required",
+        "sglt2i_for_hfpeF",
+        "stage1_hypertension"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7857,
+      "rag_keyword_coverage": 0.5,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_018",
+      "domain": "diabetes_kidney",
+      "case_type": "multi_rule",
+      "narrative_excerpt": "Ibrahim Al-Farsi 63M. Diabetic (T2DM), advanced CKD (eGFR 26, UACR 890 mg/g). On...",
+      "expected_rules": [
+        "R002",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R050"
+      ],
+      "predicted_rules": [
+        "R002",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R050"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 8,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "metformin_not_initiated",
+        "nephrology_referral_consideration",
+        "severely_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "metformin_not_initiated",
+        "nephrology_referral_consideration",
+        "severely_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7838,
+      "rag_keyword_coverage": 0.8333,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_019",
+      "domain": "anticoagulation",
+      "case_type": "coverage_gap",
+      "narrative_excerpt": "Grace Oduya 82F. AF on warfarin. Also on naproxen for osteoarthritis. Thrombosis...",
+      "expected_rules": [
+        "R008"
+      ],
+      "predicted_rules": [
+        "R008"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.714,
+      "rag_keyword_coverage": 0.6,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_020",
+      "domain": "hypertension",
+      "case_type": "diagnosis",
+      "narrative_excerpt": "Samuel Adebayo 66M. BP readings: 139/85, 138/86, 140/84 at 3 visits. No DM, no C...",
+      "expected_rules": [
+        "R020",
+        "R021"
+      ],
+      "predicted_rules": [
+        "R020",
+        "R021"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 2,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "stage1_hypertension"
+      ],
+      "predicted_facts": [
+        "stage1_hypertension"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.711,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_021",
+      "domain": "hypertension_diabetes",
+      "case_type": "multi_rule",
+      "narrative_excerpt": "Amara Diallo 48F. T2DM, hypertension. BP 158/96. On amlodipine only. UACR 120 mg...",
+      "expected_rules": [
+        "R006",
+        "R010",
+        "R022",
+        "R023"
+      ],
+      "predicted_rules": [
+        "R006",
+        "R010",
+        "R022",
+        "R023"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 4,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "moderately_elevated_albuminuria",
+        "stage2_hypertension"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "moderately_elevated_albuminuria",
+        "stage2_hypertension"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7832,
+      "rag_keyword_coverage": 1.0,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_022",
+      "domain": "kidney",
+      "case_type": "drug_safety",
+      "narrative_excerpt": "Tom Bradley 75M. CKD stage 3b (eGFR 36). Uses ibuprofen 400mg BD for back pain. ...",
+      "expected_rules": [
+        "R007",
+        "R008"
+      ],
+      "predicted_rules": [
+        "R007",
+        "R008"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 2,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7792,
+      "rag_keyword_coverage": 0.4,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_023",
+      "domain": "diabetes_kidney",
+      "case_type": "treatment_recommendation",
+      "narrative_excerpt": "Elena Vasquez 71F. T2DM, CKD (eGFR 55). HbA1c 10.2% \u2013 very above target. On metf...",
+      "expected_rules": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R010"
+      ],
+      "predicted_rules": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R010"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 5,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "moderately_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "moderately_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.8395,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_024",
+      "domain": "cardiac_kidney",
+      "case_type": "multi_rule",
+      "narrative_excerpt": "Yusuf Khoury 56M. New HF (EF 38%), CKD (eGFR 47), K+ 5.2. Cardiologist wants ACE...",
+      "expected_rules": [
+        "R007",
+        "R008",
+        "R038"
+      ],
+      "predicted_rules": [
+        "R007",
+        "R008",
+        "R038"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 3,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required",
+        "guideline_beta_blocker",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required",
+        "guideline_beta_blocker",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7645,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_025",
+      "domain": "general",
+      "case_type": "negative",
+      "narrative_excerpt": "Zara Ahmed 34F. Healthy. HbA1c 5.1%, eGFR 102, BP 112/70. No meds, no diagnoses....",
+      "expected_rules": [
+        "R025"
+      ],
+      "predicted_rules": [
+        "R025"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "normal_blood_pressure"
+      ],
+      "predicted_facts": [
+        "normal_blood_pressure"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 0,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 0.5,
+      "rag_avg_score": 0.6847,
+      "rag_keyword_coverage": 0.3333,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_026",
+      "domain": "pulmonology",
+      "case_type": "coverage_gap",
+      "narrative_excerpt": "Kwame Asante 62M. COPD (FEV1/FVC 0.61, FEV1 55% predicted). 2 exacerbations last...",
+      "expected_rules": [],
+      "predicted_rules": [],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 0,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [],
+      "predicted_facts": [],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.6405,
+      "rag_keyword_coverage": 0.2,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_027",
+      "domain": "cardiology_lipids",
+      "case_type": "treatment_recommendation",
+      "narrative_excerpt": "Nkechi Obi 53F. Established ASCVD (MI 4yr ago). On aspirin + atorvastatin. LDL 8...",
+      "expected_rules": [
+        "R028"
+      ],
+      "predicted_rules": [
+        "R028"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "intensive_ldl_lowering_indicated"
+      ],
+      "predicted_facts": [
+        "intensive_ldl_lowering_indicated"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.8101,
+      "rag_keyword_coverage": 0.8,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_028",
+      "domain": "cardiac_electrolytes",
+      "case_type": "coverage_gap",
+      "narrative_excerpt": "Patrick O'Sullivan 79M. HF \u2013 on furosemide 80mg. Sodium dropped to 129 mEq/L. Wa...",
+      "expected_rules": [
+        "R008"
+      ],
+      "predicted_rules": [
+        "R008"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "ckd_complication_screening_required"
+      ],
+      "predicted_facts": [
+        "ckd_complication_screening_required"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7048,
+      "rag_keyword_coverage": 0.4,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_029",
+      "domain": "diabetes",
+      "case_type": "negative",
+      "narrative_excerpt": "Aisha Okonkwo 46F. T1DM on insulin + metformin. HbA1c 7.1%. eGFR 88. BP 118/76. ...",
+      "expected_rules": [
+        "R025"
+      ],
+      "predicted_rules": [
+        "R025"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 1,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "normal_blood_pressure"
+      ],
+      "predicted_facts": [
+        "normal_blood_pressure"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [],
+      "predicted_alerts": [],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.744,
+      "rag_keyword_coverage": 1.0,
+      "rag_retrieved_count": 5
+    },
+    {
+      "case_id": "HUM_030",
+      "domain": "multi_domain",
+      "case_type": "multi_rule",
+      "narrative_excerpt": "Hassan Al-Rashid 73M. Complex multimorbidity: CKD stage 4 (eGFR 22), T2DM, HF (E...",
+      "expected_rules": [
+        "R001",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R038",
+        "R050"
+      ],
+      "predicted_rules": [
+        "R001",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R038",
+        "R050"
+      ],
+      "rule_precision": 1.0,
+      "rule_recall": 1.0,
+      "rule_f1": 1.0,
+      "rule_tp": 9,
+      "rule_fp": 0,
+      "rule_fn": 0,
+      "expected_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "guideline_beta_blocker",
+        "metformin_contraindicated",
+        "nephrology_referral_consideration",
+        "severely_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "predicted_facts": [
+        "annual_uacr_egfr_required",
+        "ckd_complication_screening_required",
+        "glp1_ra_preferred",
+        "guideline_beta_blocker",
+        "metformin_contraindicated",
+        "nephrology_referral_consideration",
+        "severely_elevated_albuminuria",
+        "sglt2i_consideration",
+        "uacr_egfr_1_to_4_times_yearly"
+      ],
+      "fact_precision": 1.0,
+      "fact_recall": 1.0,
+      "fact_f1": 1.0,
+      "expected_alerts": [
+        "metformin_contraindicated"
+      ],
+      "predicted_alerts": [
+        "metformin_contraindicated"
+      ],
+      "alert_detected": true,
+      "exact_match": true,
+      "rag_hit_at_1": 1,
+      "rag_hit_at_3": 1,
+      "rag_hit_at_5": 1,
+      "rag_mrr": 1.0,
+      "rag_avg_score": 0.7625,
+      "rag_keyword_coverage": 0.5,
+      "rag_retrieved_count": 5
+    }
+  ]
+}

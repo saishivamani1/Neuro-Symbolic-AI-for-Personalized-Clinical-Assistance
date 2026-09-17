@@ -1,0 +1,4 @@
+rule_id,issue,source,recommendation
+R006,Single-condition rule on broad flag 'type2_diabetes' — high population coverage,rules.csv schema audit,Consider adding specificity conditions
+R007,Single-condition rule on broad flag 'ckd' — high population coverage,rules.csv schema audit,Consider adding specificity conditions
+R008,Single eGFR < 60 rule fires for majority of CKD population,rules.csv schema audit,Review whether scope is intentional

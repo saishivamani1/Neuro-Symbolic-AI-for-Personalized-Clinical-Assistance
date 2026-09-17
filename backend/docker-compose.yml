@@ -1,0 +1,86 @@
+version: "3.9"
+
+# ==============================================================================
+# docker-compose.yml
+# Neuro-Symbolic Healthcare Intelligence Platform
+#
+# Services:
+#   backend  — FastAPI application
+#   neo4j    — Knowledge Graph database
+#   chroma   — Vector store (ChromaDB)
+#
+# Usage:
+#   docker-compose up -d         # Start all services
+#   docker-compose down          # Stop all services
+#   docker-compose logs backend  # View backend logs
+#
+# NOTE on ChromaDB:
+#   ChromaDB can run as a separate HTTP server (as shown below) OR be used in
+#   embedded/persistent mode inside the backend container (no separate service).
+#   For simplicity in development, the backend uses embedded persistent mode
+#   (CHROMA_PERSIST_DIRECTORY=./data/chroma).  The chroma service below is
+#   provided for teams who prefer a dedicated server.
+# ==============================================================================
+
+services:
+  # ── FastAPI backend ──────────────────────────────────────────────────────── #
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nshi_backend
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data          # Persist ChromaDB and documents on host
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ── Neo4j Knowledge Graph ─────────────────────────────────────────────────── #
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: nshi_neo4j
+    environment:
+      NEO4J_AUTH: neo4j/your-neo4j-password-here   # Override via .env
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted: apoc.*
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1G
+    ports:
+      - "7474:7474"     # Neo4j Browser (HTTP)
+      - "7687:7687"     # Bolt protocol
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "your-neo4j-password-here", "RETURN 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ── ChromaDB vector store (optional standalone mode) ─────────────────────── #
+  # Uncomment if you want a dedicated ChromaDB server instead of embedded mode.
+  #
+  # chroma:
+  #   image: chromadb/chroma:0.5.23
+  #   container_name: nshi_chroma
+  #   ports:
+  #     - "8001:8000"
+  #   volumes:
+  #     - chroma_data:/chroma/.chroma/index
+  #   restart: unless-stopped
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  # chroma_data:

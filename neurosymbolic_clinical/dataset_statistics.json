@@ -1,0 +1,11 @@
+{
+  "number_of_rules": 50,
+  "number_of_cases": 500,
+  "positive_cases": 150,
+  "negative_cases": 150,
+  "boundary_cases": 100,
+  "multi_rule_cases": 100,
+  "ground_truth_method": "Deterministic evaluation of each patient case against rules.csv; no LLM-generated ground truth.",
+  "random_seed": 20260914,
+  "validation_note": "Rules are sourced from cited authoritative guideline/label references; source wording and applicability should be human-validated before clinical or publication use."
+}

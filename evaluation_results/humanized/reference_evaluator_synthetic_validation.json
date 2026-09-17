@@ -1,0 +1,14 @@
+{
+  "dataset": "synthetic_benchmark_500",
+  "n_cases": 500,
+  "tp": 211,
+  "fp": 1208,
+  "fn": 124,
+  "tn": 23457,
+  "micro_precision": 0.1487,
+  "micro_recall": 0.6299,
+  "micro_f1": 0.2406,
+  "exact_match_count": 376,
+  "exact_match_rate": 0.752,
+  "interpretation": "Reference evaluator agreement with externally-curated test_cases.csv. Scores < 100% reveal differences between reference semantics and test-case ground truth (e.g. drug expansion / forward chaining cases)."
+}

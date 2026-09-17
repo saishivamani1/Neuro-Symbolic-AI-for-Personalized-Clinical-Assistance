@@ -1,0 +1,460 @@
+{
+  "total_rule_slots": 1500,
+  "in_both": 91,
+  "engine_only_additions": 0,
+  "reference_only_misses": 0,
+  "in_neither": 1409,
+  "engine_additions_meaning": "These rules fire in the full engine but NOT in the reference evaluator. This is expected: the engine performs drug-class expansion (e.g. lisinopril -> ace_inhibitor) and forward chaining that the reference evaluator intentionally omits.",
+  "reference_misses_meaning": "These rules fire in the reference but NOT the full engine. If > 0, investigate for engine suppression bugs.",
+  "per_case": [
+    {
+      "case_id": "HUM_001",
+      "in_both": [
+        "R001",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R050"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_002",
+      "in_both": [
+        "R007",
+        "R008",
+        "R010"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_003",
+      "in_both": [
+        "R007",
+        "R008",
+        "R038"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_004",
+      "in_both": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_005",
+      "in_both": [
+        "R038"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_006",
+      "in_both": [
+        "R006",
+        "R022",
+        "R023"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_007",
+      "in_both": [
+        "R007",
+        "R008",
+        "R013",
+        "R017"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_008",
+      "in_both": [
+        "R006",
+        "R026",
+        "R027",
+        "R031"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_009",
+      "in_both": [
+        "R008"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_010",
+      "in_both": [],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_011",
+      "in_both": [
+        "R024"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_012",
+      "in_both": [
+        "R006"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_013",
+      "in_both": [
+        "R028"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_014",
+      "in_both": [
+        "R001",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R050"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_015",
+      "in_both": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R010",
+        "R018",
+        "R019",
+        "R022"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_016",
+      "in_both": [
+        "R025"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_017",
+      "in_both": [
+        "R008",
+        "R020",
+        "R021",
+        "R040"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_018",
+      "in_both": [
+        "R002",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R050"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_019",
+      "in_both": [
+        "R008"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_020",
+      "in_both": [
+        "R020",
+        "R021"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_021",
+      "in_both": [
+        "R006",
+        "R010",
+        "R022",
+        "R023"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_022",
+      "in_both": [
+        "R007",
+        "R008"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_023",
+      "in_both": [
+        "R004",
+        "R006",
+        "R007",
+        "R008",
+        "R010"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_024",
+      "in_both": [
+        "R007",
+        "R008",
+        "R038"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_025",
+      "in_both": [
+        "R025"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_026",
+      "in_both": [],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_027",
+      "in_both": [
+        "R028"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_028",
+      "in_both": [
+        "R008"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_029",
+      "in_both": [
+        "R025"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    },
+    {
+      "case_id": "HUM_030",
+      "in_both": [
+        "R001",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009",
+        "R038",
+        "R050"
+      ],
+      "engine_only": [],
+      "reference_only": [],
+      "interpretation": {
+        "engine_only": "Engine fires via drug expansion / forward chaining",
+        "reference_only": "Potential engine suppression or resolution gap",
+        "in_both": "Unambiguously correctly fired"
+      }
+    }
+  ]
+}
